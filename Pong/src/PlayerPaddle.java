@@ -33,12 +33,14 @@ public class PlayerPaddle {
 		//needs to be here to set the bounds at all times
 		box.setBounds(positionX, positionY, width, height);
 		
+		//If player hits up, do logic
 		//positionY>=0 prevents paddle from going off screen
 		if(up && positionY>0)
 		{
 			//To go up, position Y must decrease (minus)
 			positionY -= speed;
 		}
+		//If player hits down, do logic
 		//"positionY < game.getHeight() - height" prevents paddle from going off screen
 		if(down && positionY < game.getHeight() - height)
 		{
