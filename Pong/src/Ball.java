@@ -30,6 +30,7 @@ public class Ball {
 	
 	public void update(Game game)
 	{
+		//sets bounds around ball at all times
 		box.setBounds(positionX, positionY, size, size);
 		
 		/*if the top left corner of the ball is at 0 (very left of screen), 
