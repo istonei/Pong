@@ -10,6 +10,7 @@ public class Ball {
 	//primer for speed  of ball
 	int speed = 1;
 	
+	//speed of ball traveling in X and Y coordinates
 	int velocityX, velocityY;
 	
 	Rectangle box;
