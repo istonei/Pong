@@ -31,6 +31,7 @@ public class Ball {
 		box.setBounds(this.positionX, this.positionY, this.size, this.size);
 	}
 	
+	//update ball position at all times
 	public void update(Game game)
 	{
 		//sets bounds around ball at all times
