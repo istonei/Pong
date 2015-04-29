@@ -3,8 +3,11 @@ import java.awt.*;
 
 public class Ball {
 	
+	//position of ball on screen
 	int positionX, positionY;
+	//size of ball
 	int size = 16;
+	//primer for speed  of ball
 	int speed = 1;
 	
 	int velocityX, velocityY;
